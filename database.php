@@ -1,7 +1,8 @@
+
 <?php
-$servername='localhost';
-$username='root';
-$password='';
+$servername='localhost'; 
+$username='root'; 
+$password=''; 
 $dbname="seed_data";
 
 // Check connection

@@ -1,7 +1,7 @@
 <?php
 include_once 'database.php';
-// insert a record
-if(isset($_POST['save']))
+// insert a record in database
+ if(isset($_POST['save']))
 {	 
 	 $name = $_POST['name'];
 	 $num_seed = $_POST['number of seed'];
@@ -15,9 +15,5 @@ if(isset($_POST['save']))
 	 }
 	 mysqli_close($conn);
 }
-# delete the record 
-/*of(isset($_POST['receive']))
-{
-	$sql = "delete from "
-}*/
+
 ?>
