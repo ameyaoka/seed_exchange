@@ -1,4 +1,4 @@
-<?php
+?php
 include_once 'database.php';
 // insert a record in database
  if(isset($_POST['save']))
