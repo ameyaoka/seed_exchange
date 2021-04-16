@@ -33,9 +33,18 @@ $(document).ready(function(){
 -->
 </head>
 <body>
+<!-- search form for browse page -->
+<form onsubmit="return fetch();">
+<h1> SEARCH SEEDS HERE!  </h1> 
+<input type="text"  placeholder="search seeds" name="search-seed" required>
 
-<input type="text"  placeholder="search seeds" name="search-seed"
+<input type="submit"  value="search-seed">
 
+
+</form>
+<?php
+// process search when form is submitted
+if (isset($_post
 </body>
 
 </html>
