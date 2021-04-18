@@ -27,8 +27,23 @@ $(document).ready(function(){
 });
 </script>
 
+<!-- navbar -->
+
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script>
+$(function(){
+	  $("#nav-placeholder").load("nav.html");
+});
+</script>
+
 </head>
 <body>
+<!--Navigation bar-->
+<div id="nav-placeholder">
+
+</div>
+
+<!--end of Navigation bar-->
 <div class="search-box">
 <h1> SEARCH SEEDS HERE!  </h1> 
 <input type="text"  autocomplete="off" placeholder="search seeds" >
