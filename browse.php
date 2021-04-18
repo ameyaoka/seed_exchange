@@ -10,7 +10,7 @@ $(document).ready(function(){
         var inputVal = $(this).val();
         var resultDropdown = $(this).siblings(".result");
         if(inputVal.length){
-            $.get("backend-search.php", {term: inputVal}).done(function(data){
+            $.get("search.php", {term: inputVal}).done(function(data){
                 // Display the returned data in browser
                 resultDropdown.html(data);
             });
@@ -31,7 +31,7 @@ $(document).ready(function(){
 <body>
 <div class="search-box">
 <h1> SEARCH SEEDS HERE!  </h1> 
-<input type="text"  placeholder="search seeds" name="search-seed" required>
+<input type="text"  autocomplete="off" placeholder="search seeds" >
 
 <div class="result"><div>
 </div>
