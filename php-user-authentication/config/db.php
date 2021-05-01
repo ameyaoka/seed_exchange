@@ -11,7 +11,7 @@
     $hostname = "localhost";
     $username = "root";
     $password = "";
-    $dbname = "user";
+    $dbname = "seed_data";
     
     $connection = mysqli_connect($hostname, $username, $password, $dbname) or die("Database connection not established.")
 
