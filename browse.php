@@ -10,9 +10,6 @@
         -ms-transform: translate(-50%, -50%);
   	transform: translate(-50%, -50%); 
 
-h1{
-
-	color: red;
 }
 <style>
 </style>
@@ -62,7 +59,7 @@ $(function(){
 
 <!--end of Navigation bar-->
 <div class="search-box">
-<h1 style="color:blue;"> SEARCH SEEDS HERE!  </h1> 
+<h1 >SEARCH SEEDS HERE!  </h1> 
 <input type="text"  autocomplete="off" placeholder="search seeds" >
 
 <div class="result"><div>

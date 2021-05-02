@@ -1,11 +1,25 @@
 <html>
 <head>
+
+<link  href="navbar.css" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script>
+$(function(){
+	  $("#nav-placeholder").load("user-profile-nav.html");
+});
+</script>
+
+
 </head>
 
 <body>
-<nav>
+<!--Navigation bar-->
+<div id="nav-placeholder">
 
-</nav>
+</div>
+
+<!--end of Navigation bar-->
+
 
 <form  method="post" action="process.php">
 <label for="seed-name"><b>name of the seed</b></label>
